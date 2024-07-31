@@ -1,6 +1,6 @@
 {
-  "name": "react-use-hooks",
-  "version": "0.0.1",
+  "name": "react-use-hooks-ts",
+  "version": "0.0.0",
   "description": "A series of react implementations using hooks",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
