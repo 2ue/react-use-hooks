@@ -70,7 +70,9 @@ jobs:
           cat ./.npmrc
 
       - name: Npm Publish
-        run: npm publish
+        run: |
+          npm config set access public
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
