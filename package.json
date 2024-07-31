@@ -1,5 +1,5 @@
 {
-  "name": "react-use-hooks-ts",
+  "name": "@ji/react-use-hooks",
   "version": "0.0.0",
   "description": "A series of react implementations using hooks",
   "main": "dist/cjs/index.js",
