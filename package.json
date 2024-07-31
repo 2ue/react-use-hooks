@@ -1,6 +1,6 @@
 {
   "name": "@fdots/react-use-hooks",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A series of react implementations using hooks",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
