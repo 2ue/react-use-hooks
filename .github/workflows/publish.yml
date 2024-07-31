@@ -4,7 +4,7 @@ on:
     types: [to-publish-npm]
 
 jobs:
-  pre-publish:
+  publish:
     # needs: test
     runs-on: ubuntu-latest
     steps:
@@ -69,7 +69,7 @@ jobs:
           ls -al
           cat ./.npmrc
 
-      - name: Publish
+      - name: Npm Publish
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
